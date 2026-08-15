@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: Second-Project
+
+#api key for Gemini AI
+  ai:
+    google:
+      genai:
+        api-key: ${GEMINI_API_KEY}
+
+        chat:
+          model: gemini-3.6-flash
+          temperature: 0.7
+
+
+server:
+  port: 8082
