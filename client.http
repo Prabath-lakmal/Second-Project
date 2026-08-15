@@ -1,0 +1,4 @@
+http://localhost:8082/chat?q=hi?
+
+# First commit to Spring AI test with open ai API
+# then add as run environment "GEMINI_API_KEY=..."
